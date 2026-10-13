@@ -15,9 +15,10 @@ function targetTop(hash: string) {
 }
 
 /**
- * Scroll to top on route change and to in-page anchors. The first scroll after a page load is
- * instant and re-applied once more shortly after (fonts, images and ScrollTrigger's own refresh
- * can shift layout or restore the previous position); later in-page jumps are smooth.
+ * Scroll to top on route change and to in-page anchors. Route changes and the first anchor
+ * jump after a load are "instant" — note that "auto" would inherit the stylesheet's
+ * scroll-behavior: smooth and animate. The first jump is re-applied once after layout settles
+ * (fonts, images, ScrollTrigger refresh); later in-page jumps within a page are smooth.
  */
 export function ScrollManager() {
   const { pathname, hash, key } = useLocation();
@@ -27,7 +28,7 @@ export function ScrollManager() {
     const initial = firstRun.current;
     firstRun.current = false;
     if (!hash) {
-      if (!initial) window.scrollTo({ top: 0, behavior: "auto" });
+      if (!initial) window.scrollTo({ top: 0, behavior: "instant" });
       return;
     }
     let attempts = 0;
@@ -43,11 +44,11 @@ export function ScrollManager() {
         // Correct once layout and ScrollTrigger have settled.
         timers.push(window.setTimeout(() => {
           const t = targetTop(hash);
-          if (t !== null && Math.abs(t - window.scrollY) > 4) window.scrollTo({ top: t, behavior: "auto" });
+          if (t !== null && Math.abs(t - window.scrollY) > 4) window.scrollTo({ top: t, behavior: "instant" });
         }, 600));
       }
     };
-    go(initial ? "auto" : "smooth");
+    go(initial ? "instant" : "smooth");
     return () => timers.forEach(clearTimeout);
   }, [pathname, hash, key]);
   return null;

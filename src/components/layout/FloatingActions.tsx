@@ -39,7 +39,7 @@ export function FloatingActions() {
 
   const toTop = () => {
     const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    window.scrollTo({ top: 0, behavior: reduce ? "auto" : "smooth" });
+    window.scrollTo({ top: 0, behavior: reduce ? "instant" : "smooth" });
     document.getElementById("main")?.focus({ preventScroll: true });
   };
 
