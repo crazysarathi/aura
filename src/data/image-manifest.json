@@ -1,0 +1,368 @@
+{
+  "brand/aura-logo": {
+    "widths": [
+      320,
+      640,
+      1200
+    ],
+    "aspect": "2560:821",
+    "width": 2560,
+    "height": 821
+  },
+  "brand/aura-icon": {
+    "widths": [
+      64,
+      192,
+      512
+    ],
+    "aspect": "512:512",
+    "width": 512,
+    "height": 512
+  },
+  "brand/nabh-patient-safety": {
+    "widths": [
+      200,
+      400
+    ],
+    "aspect": "2000:2000",
+    "width": 2000,
+    "height": 2000
+  },
+  "hero/hero-skin-wellness": {
+    "widths": [
+      640,
+      1024,
+      1600,
+      2048
+    ],
+    "aspect": "2560:1707",
+    "width": 2560,
+    "height": 1707
+  },
+  "hero/hero-facial-treatment": {
+    "widths": [
+      640,
+      1024,
+      1600,
+      2048
+    ],
+    "aspect": "2560:1707",
+    "width": 2560,
+    "height": 1707
+  },
+  "treatments/cosmetic-dermatology": {
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "aspect": "2276:1707",
+    "width": 2276,
+    "height": 1707
+  },
+  "treatments/hair-transplantation": {
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "aspect": "2276:1707",
+    "width": 2276,
+    "height": 1707
+  },
+  "treatments/cosmetic-gynecology": {
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "aspect": "1707:1280",
+    "width": 1707,
+    "height": 1280
+  },
+  "treatments/cosmetic-dentistry": {
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "aspect": "2279:1709",
+    "width": 2279,
+    "height": 1709
+  },
+  "treatments/aesthetic-surgery": {
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "aspect": "1707:1280",
+    "width": 1707,
+    "height": 1280
+  },
+  "treatments/hair-prp-consult": {
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "aspect": "1706:1280",
+    "width": 1706,
+    "height": 1280
+  },
+  "treatments/dermatology-laser": {
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "aspect": "2048:2560",
+    "width": 2048,
+    "height": 2560
+  },
+  "treatments/dermatology-skin-care": {
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "aspect": "2048:2560",
+    "width": 2048,
+    "height": 2560
+  },
+  "treatments/dermatology-hair": {
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "aspect": "2048:2560",
+    "width": 2048,
+    "height": 2560
+  },
+  "treatments/dermatology-natural-skin": {
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "aspect": "2439:1829",
+    "width": 2439,
+    "height": 1829
+  },
+  "treatments/dermatology-face-cream": {
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "aspect": "2048:2560",
+    "width": 2048,
+    "height": 2560
+  },
+  "treatments/hair-restoration": {
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "aspect": "2048:2560",
+    "width": 2048,
+    "height": 2560
+  },
+  "treatments/hair-prp": {
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "aspect": "2048:2560",
+    "width": 2048,
+    "height": 2560
+  },
+  "treatments/gynecology-consult": {
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "aspect": "2048:2560",
+    "width": 2048,
+    "height": 2560
+  },
+  "treatments/dentistry-smile": {
+    "widths": [
+      480,
+      800,
+      1200
+    ],
+    "aspect": "2048:2560",
+    "width": 2048,
+    "height": 2560
+  },
+  "treatments/surgery-breast": {
+    "widths": [
+      480,
+      550
+    ],
+    "aspect": "550:600",
+    "width": 550,
+    "height": 600
+  },
+  "treatments/surgery-body": {
+    "widths": [
+      480,
+      550
+    ],
+    "aspect": "550:600",
+    "width": 550,
+    "height": 600
+  },
+  "treatments/surgery-men": {
+    "widths": [
+      480,
+      550
+    ],
+    "aspect": "550:600",
+    "width": 550,
+    "height": 600
+  },
+  "doctors/dr-priyadharshini-k": {
+    "widths": [
+      320,
+      640,
+      960
+    ],
+    "aspect": "1707:2276",
+    "width": 1707,
+    "height": 2276
+  },
+  "doctors/dr-harish-prasanna": {
+    "widths": [
+      320,
+      640,
+      960
+    ],
+    "aspect": "1440:1920",
+    "width": 1440,
+    "height": 1920
+  },
+  "doctors/dr-kavitha": {
+    "widths": [
+      320,
+      640,
+      960
+    ],
+    "aspect": "1707:2276",
+    "width": 1707,
+    "height": 2276
+  },
+  "doctors/dr-senthil-kumaran-m": {
+    "widths": [
+      320,
+      640,
+      960
+    ],
+    "aspect": "1707:2276",
+    "width": 1707,
+    "height": 2276
+  },
+  "doctors/dr-nagappan-ar": {
+    "widths": [
+      320,
+      640,
+      960
+    ],
+    "aspect": "1707:2276",
+    "width": 1707,
+    "height": 2276
+  },
+  "clinic/clinic-banner-1": {
+    "widths": [
+      640,
+      1024,
+      1600,
+      1920
+    ],
+    "aspect": "1920:750",
+    "width": 1920,
+    "height": 750
+  },
+  "clinic/clinic-banner-2": {
+    "widths": [
+      640,
+      1024,
+      1600,
+      1920
+    ],
+    "aspect": "1920:750",
+    "width": 1920,
+    "height": 750
+  },
+  "blog/skin-lightening-treatment": {
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "aspect": "2560:1440",
+    "width": 2560,
+    "height": 1440
+  },
+  "blog/fine-lines-radiant-skin": {
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "aspect": "2560:1440",
+    "width": 2560,
+    "height": 1440
+  },
+  "blog/prp-treatment-techniques": {
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "aspect": "2560:1440",
+    "width": 2560,
+    "height": 1440
+  },
+  "blog/laser-hair-reduction-guide": {
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "aspect": "2560:1440",
+    "width": 2560,
+    "height": 1440
+  },
+  "blog/skin-clinic-experience": {
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "aspect": "2560:1440",
+    "width": 2560,
+    "height": 1440
+  },
+  "blog/five-skin-treatments": {
+    "widths": [
+      480,
+      800,
+      1200,
+      1600
+    ],
+    "aspect": "2560:1440",
+    "width": 2560,
+    "height": 1440
+  }
+}

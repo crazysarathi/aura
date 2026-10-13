@@ -1,0 +1,21 @@
+# Netlify redirects — HTTP 301 for URLs that changed in the WordPress → React migration.
+/everything-you-need-to-know-about-skin-lightening-treatment/  /blog/everything-you-need-to-know-about-skin-lightening-treatment/  301
+/say-goodbye-to-fine-lines-on-the-face-and-under-the-eyes-a-guide-to-radiant-skin/  /blog/say-goodbye-to-fine-lines-on-the-face-and-under-the-eyes-a-guide-to-radiant-skin/  301
+/navigating-beauty-a-comprehensive-guide-step-guide-to-laser-hair-reduction/  /blog/navigating-beauty-a-comprehensive-guide-step-guide-to-laser-hair-reduction/  301
+/a-step-by-step-guide-to-laser-hair-reduction/  /blog/a-step-by-step-guide-to-laser-hair-reduction/  301
+/the-ultimate-skin-clinic-experience-at-aura-cosmetique/  /blog/the-ultimate-skin-clinic-experience-at-aura-cosmetique/  301
+/5-skin-treatments-to-rejuvenate-your-skin/  /blog/5-skin-treatments-to-rejuvenate-your-skin/  301
+/category/general/  /blog/  301
+/category/general  /blog/  301
+/author/aura/  /blog/  301
+/2024/03/  /blog/  301
+/2024/02/  /blog/  301
+/Contact  /contact-us/  301
+/contact  /contact-us/  301
+/main-home/  /  301
+/shop/  /  301
+/cart/  /  301
+/checkout/  /  301
+/my-account/  /  301
+# SPA fallback for any route that was not prerendered
+/*  /index.html  200

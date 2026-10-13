@@ -1,0 +1,25 @@
+{
+  "trailingSlash": true,
+  "redirects": [
+    { "source": "/everything-you-need-to-know-about-skin-lightening-treatment", "destination": "/blog/everything-you-need-to-know-about-skin-lightening-treatment/", "permanent": true },
+    { "source": "/say-goodbye-to-fine-lines-on-the-face-and-under-the-eyes-a-guide-to-radiant-skin", "destination": "/blog/say-goodbye-to-fine-lines-on-the-face-and-under-the-eyes-a-guide-to-radiant-skin/", "permanent": true },
+    { "source": "/navigating-beauty-a-comprehensive-guide-step-guide-to-laser-hair-reduction", "destination": "/blog/navigating-beauty-a-comprehensive-guide-step-guide-to-laser-hair-reduction/", "permanent": true },
+    { "source": "/a-step-by-step-guide-to-laser-hair-reduction", "destination": "/blog/a-step-by-step-guide-to-laser-hair-reduction/", "permanent": true },
+    { "source": "/the-ultimate-skin-clinic-experience-at-aura-cosmetique", "destination": "/blog/the-ultimate-skin-clinic-experience-at-aura-cosmetique/", "permanent": true },
+    { "source": "/5-skin-treatments-to-rejuvenate-your-skin", "destination": "/blog/5-skin-treatments-to-rejuvenate-your-skin/", "permanent": true },
+    { "source": "/category/general", "destination": "/blog/", "permanent": true },
+    { "source": "/author/aura", "destination": "/blog/", "permanent": true },
+    { "source": "/2024/:month", "destination": "/blog/", "permanent": true },
+    { "source": "/Contact", "destination": "/contact-us/", "permanent": true },
+    { "source": "/contact", "destination": "/contact-us/", "permanent": true },
+    { "source": "/main-home", "destination": "/", "permanent": true },
+    { "source": "/shop", "destination": "/", "permanent": true },
+    { "source": "/cart", "destination": "/", "permanent": true },
+    { "source": "/checkout", "destination": "/", "permanent": true },
+    { "source": "/my-account", "destination": "/", "permanent": true }
+  ],
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
+  "headers": [
+    { "source": "/assets/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }] }
+  ]
+}
