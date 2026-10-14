@@ -67,20 +67,21 @@ export default function HomePage() {
                   <p className="text-[13px] leading-snug text-ink-muted sm:mt-3">{site.accreditation}</p>
                 </div>
               </div>
-              <div className="col-span-12 grid grid-cols-3 divide-x divide-line rounded-xl border border-line bg-ivory text-center">
-                <div className="p-3 sm:p-4">
-                  <p className="font-display text-xl text-indigo-900 sm:text-2xl"><CountUp value={services.length} /></p>
-                  <p className="text-xs text-ink-muted">Specialities</p>
-                </div>
-                <div className="p-3 sm:p-4">
-                  <p className="font-display text-xl text-indigo-900 sm:text-2xl"><CountUp value={treatmentCount} suffix="+" /></p>
-                  <p className="text-xs text-ink-muted">Treatments listed</p>
-                </div>
-                <div className="p-3 sm:p-4">
-                  <p className="font-display text-xl text-indigo-900 sm:text-2xl"><CountUp value={doctors.length} /></p>
-                  <p className="text-xs text-ink-muted">Consultant doctors</p>
-                </div>
-              </div>
+              <dl className="col-span-12 grid grid-cols-3 divide-x divide-line rounded-xl border border-line bg-ivory text-center">
+                {[
+                  { value: services.length, label: "Specialities" },
+                  { value: treatmentCount, suffix: "+", label: "Treatments" },
+                  { value: doctors.length, label: "Consultant doctors" },
+                ].map((stat) => (
+                  <div key={stat.label} className="flex flex-col-reverse justify-end gap-3 px-2 py-5 sm:gap-4 sm:px-4 sm:py-7">
+                    <dt className="text-[11px] font-semibold uppercase tracking-wider text-ink-muted before:mx-auto before:mb-2.5 before:block before:h-0.5 before:w-8 before:rounded-full before:bg-copper-500 sm:text-xs">{stat.label}</dt>
+                    <dd className="font-display text-[2.75rem] leading-none text-indigo-900 sm:text-6xl">
+                      <CountUp value={stat.value} />
+                      {stat.suffix && <span className="text-copper-600">{stat.suffix}</span>}
+                    </dd>
+                  </div>
+                ))}
+              </dl>
             </div>
           </Reveal>
         </div>
@@ -132,7 +133,7 @@ export default function HomePage() {
 
       <Section id="our-team" tone="white">
         <Reveal className="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
-          <SectionHeading eyebrow="Specialists" title="Our Team" intro="Consultant dermatologists, a cosmetic gynecologist, a plastic surgeon and a maxillofacial surgeon, working together under one roof." />
+          <SectionHeading eyebrow="Specialists" title="Our Team" intro="A consultant dermatologist, a cosmetic gynecologist, a plastic surgeon and a maxillofacial surgeon, working together under one roof." />
           <Button asChild variant="outline" className="shrink-0">
             <Link to="/doctors/">All doctors</Link>
           </Button>

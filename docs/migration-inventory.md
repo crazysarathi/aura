@@ -70,6 +70,7 @@ Footer: About Aura blurb · Important Links (Our Services, Our Team, Our Blog, C
 - Testimonials (from `/consult/`): Veera Mani and Santhosh R — two short quotes, reproduced verbatim. Source attribution beyond the names is not given on the old site.
 - Team (home page "Our Team"): Dr. Priyadharshini K (MBBS, MD Dermatology — Consultant Dermatologist and Cosmetologist); Dr. Harish Prasanna (MBBS, MD, DVL — Consultant Dermatologist, Cosmetologist & Dermatosurgeon); Dr. Kavitha (MD, MRCOG, MICG — Consultant Cosmetic Gynecologist); Dr. Senthil Kumaran M (MS, M.Ch Plastic Surgery — Consultant Plastic Reconstructive & Cosmetic Surgery); Dr. Nagappan AR (MDS, IFFID — Consultant Maxillofacial Surgeon & Implantologist).
 - The old feedback form's doctor dropdown lists: Dr. K. Priyadharshini, Dr. M. Preethi, Dr. Kavitha Nagarajan, Dr. M. Senthil Kumaran, Dr. Nagappan A R. (It omits Dr. Harish Prasanna and includes Dr. M. Preethi, who is not on the home-page team.) The new form keeps this list unchanged; the clinic should confirm it.
+- 14 Oct 2026: Dr. Harish Prasanna removed from the new site at the clinic's request (team page, profile, service pages and portrait assets).
 
 ## Forms on the old site
 

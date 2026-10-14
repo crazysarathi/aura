@@ -22,8 +22,8 @@ export default function DoctorsPage() {
   return (
     <>
       <Seo
-        title="Our Doctors – Dermatologists, Cosmetic Gynecologist, Plastic & Maxillofacial Surgeons | Aura Cosmetique Salem"
-        description="Meet the consultant team at Aura Cosmetique, Salem: Dr. Priyadharshini K, Dr. Harish Prasanna, Dr. Kavitha, Dr. Senthil Kumaran M and Dr. Nagappan AR."
+        title="Our Doctors – Dermatologist, Cosmetic Gynecologist, Plastic & Maxillofacial Surgeons | Aura Cosmetique Salem"
+        description="Meet the consultant team at Aura Cosmetique, Salem: Dr. Priyadharshini K, Dr. Kavitha, Dr. Senthil Kumaran M and Dr. Nagappan AR."
         path="/doctors/"
         jsonLd={[breadcrumbLd(crumbs), ld]}
       />

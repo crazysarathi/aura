@@ -43,7 +43,6 @@ const jobs = [
   { src: "surg-men.jpg", out: "treatments/surgery-men", widths: [480, 550], fit: "inside" },
   // doctors (3:4 portraits)
   { src: "dr-priyadharshini.jpg", out: "doctors/dr-priyadharshini-k", widths: [320, 640, 960], aspect: "3:4", position: "top" },
-  { src: "dr-harish.jpg", out: "doctors/dr-harish-prasanna", widths: [320, 640, 960], aspect: "3:4", position: "top" },
   { src: "dr-kavitha.jpg", out: "doctors/dr-kavitha", widths: [320, 640, 960], aspect: "3:4", position: "top" },
   { src: "dr-senthil.jpg", out: "doctors/dr-senthil-kumaran-m", widths: [320, 640, 960], aspect: "3:4", position: "top" },
   { src: "dr-nagappan.jpg", out: "doctors/dr-nagappan-ar", widths: [320, 640, 960], aspect: "3:4", position: "top" },

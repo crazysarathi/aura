@@ -24,7 +24,7 @@ export const services: ServiceCategory[] = [
     },
     heroImage: { key: "treatments/dermatology-laser", alt: "Dermatologist performing a laser treatment on a patient's leg" },
     cardImage: { key: "treatments/cosmetic-dermatology", alt: "Glutathione skin treatment at Aura Cosmetique" },
-    doctorIds: ["priyadharshini-k", "harish-prasanna"],
+    doctorIds: ["priyadharshini-k"],
     groups: [
       {
         id: "skin",
@@ -108,7 +108,7 @@ export const services: ServiceCategory[] = [
     },
     heroImage: { key: "treatments/hair-restoration", alt: "Hair restoration consultation at Aura Cosmetique" },
     cardImage: { key: "treatments/hair-transplantation", alt: "Adult male with hair thinning before hair restoration treatment" },
-    doctorIds: ["harish-prasanna", "priyadharshini-k"],
+    doctorIds: ["priyadharshini-k"],
     groups: [
       {
         id: "hair-restoration",

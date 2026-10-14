@@ -12,15 +12,6 @@ export const doctors: Doctor[] = [
     specialties: ["cosmetic-dermatology", "hair-transplantation"],
   },
   {
-    id: "harish-prasanna",
-    slug: "dr-harish-prasanna",
-    name: "Dr. Harish Prasanna",
-    qualifications: "MBBS, MD, DVL",
-    designation: "Consultant Dermatologist, Cosmetologist & Dermatosurgeon",
-    image: { key: "doctors/dr-harish-prasanna", alt: "Dr. Harish Prasanna, Consultant Dermatologist, Cosmetologist and Dermatosurgeon at Aura Cosmetique" },
-    specialties: ["cosmetic-dermatology", "hair-transplantation"],
-  },
-  {
     id: "kavitha",
     slug: "dr-kavitha",
     name: "Dr. Kavitha",

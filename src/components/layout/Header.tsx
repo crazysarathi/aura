@@ -58,8 +58,7 @@ export function Header() {
       </a>
       {/* Info bar scrolls away; only the main bar is sticky, so sticky offsets stay small. */}
       <div className="hidden bg-indigo-900 text-[13px] text-white/90 lg:block">
-        <div className="container-x flex h-9 items-center justify-between">
-          <p className="truncate">{site.address.full}</p>
+        <div className="container-x flex h-9 items-center justify-end">
           <div className="flex items-center gap-5">
             <a href={`tel:${site.phones[0].tel}`} className="inline-flex items-center gap-1.5 hover:text-white">
               <Phone className="size-3.5" aria-hidden="true" /> {site.phones[0].display}

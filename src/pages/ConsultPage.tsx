@@ -24,7 +24,7 @@ export default function ConsultPage() {
   const treatment = params.get("treatment");
   return (
     <>
-      <Seo title="Book a Consultation – Aura Cosmetique, Salem" description="Request an appointment with the dermatologists, cosmetic gynecologist, plastic surgeon and maxillofacial surgeon at Aura Cosmetique by SKS, Salem. Call +91 93847 48884 or send your details." path="/consult/" jsonLd={[breadcrumbLd(crumbs)]} />
+      <Seo title="Book a Consultation – Aura Cosmetique, Salem" description="Request an appointment with the dermatologist, cosmetic gynecologist, plastic surgeon and maxillofacial surgeon at Aura Cosmetique by SKS, Salem. Call +91 93847 48884 or send your details." path="/consult/" jsonLd={[breadcrumbLd(crumbs)]} />
       <PageHero eyebrow="Appointments" title="Book a consultation" intro="Share your details and our front office will call you back to fix a convenient time with the right specialist." crumbs={crumbs} compact />
 
       <Section tone="white" id="book">

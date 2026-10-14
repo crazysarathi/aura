@@ -61,10 +61,7 @@ export function Hero() {
             );
           })}
         </div>
-        <p style={rise(0.25).style} className="mt-4 max-w-xl text-[15px] leading-relaxed text-white/85 animate-rise motion-reduce:animate-none max-[359px]:min-h-[5lh] sm:mt-5 sm:text-[1.0625rem]">
-          Dermatology, hair restoration, cosmetic gynecology, cosmetic dentistry and aesthetic surgery, delivered by consultant specialists under one roof.
-        </p>
-        <div style={rise(0.4).style} className="mt-6 grid gap-3 animate-rise motion-reduce:animate-none min-[420px]:flex min-[420px]:flex-wrap sm:mt-8">
+        <div style={rise(0.25).style} className="mt-6 grid gap-3 animate-rise motion-reduce:animate-none min-[420px]:flex min-[420px]:flex-wrap sm:mt-8">
           <Button asChild variant="accent" size="lg">
             <Link to="/consult/">
               Book a consultation <ArrowRight aria-hidden="true" />

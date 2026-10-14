@@ -67,5 +67,5 @@ Suitable implementations: a serverless function (Netlify/Vercel/Cloudflare) that
 - [ ] Confirm the host serves `index.html` for unknown paths: `https://aura.sks.clinic/cosmetic-dermatology/` should end up at `/#/cosmetic-dermatology/`.
 - [ ] Submit `https://aura.sks.clinic/sitemap.xml` in Google Search Console (root URL only; see Routing and SEO above).
 - [ ] Update the Google Business Profile website link if it pointed at a deep URL.
-- [ ] Confirm with the clinic: the feedback form's doctor list (includes Dr. M. Preethi, omits Dr. Harish Prasanna), the NABH statement, opening hours.
+- [ ] Confirm with the clinic: the feedback form's doctor list (includes Dr. M. Preethi, who is not on the team page), the NABH statement, opening hours.
 - [ ] Optional: self-host Google Fonts; add analytics (the old site used Site Kit / Jetpack).
