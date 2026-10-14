@@ -177,6 +177,63 @@
 .animate-rise { animation: rise 0.7s var(--ease-out-soft) both; }
 
 /*
+  Route change: the new page fades and rises in. Fill is "backwards" only, so once it ends the wrapper has
+  no transform or filter left (either would trap position: fixed descendants and confuse ScrollTrigger).
+*/
+@keyframes page-in {
+  from { opacity: 0; transform: translateY(14px); filter: blur(3px); }
+  60% { filter: blur(0); }
+  to { opacity: 1; transform: none; filter: none; }
+}
+.animate-page-in { animation: page-in 0.6s var(--ease-out-soft) backwards; }
+
+/*
+  Home hero slide change. The incoming slide is revealed as a circle growing from --rx/--ry (the click or
+  swipe point, set inline), its image settles from a slight zoom, a copper ripple spreads from the same point
+  and the headline rises word by word.
+*/
+@keyframes hero-reveal { from { clip-path: circle(0% at var(--rx) var(--ry)); } to { clip-path: circle(150% at var(--rx) var(--ry)); } }
+@keyframes hero-zoom { from { transform: scale(1.14); } to { transform: scale(1); } }
+@keyframes hero-ripple {
+  from { transform: translate(-50%, -50%) scale(0); opacity: 0.9; }
+  to { transform: translate(-50%, -50%) scale(18); opacity: 0; }
+}
+@keyframes word-in { from { transform: translateY(110%) rotate(4deg); opacity: 0; } to { transform: none; opacity: 1; } }
+@keyframes fill-x { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+@keyframes chevron-wave { 0%, 100% { opacity: 0.25; } 40% { opacity: 1; } }
+@keyframes swipe-hint { 0%, 100% { transform: translateX(-9px) rotate(-8deg); } 50% { transform: translateX(9px) rotate(8deg); } }
+
+.animate-hero-reveal { animation: hero-reveal 1.1s var(--ease-out-soft) both; }
+.animate-hero-zoom { animation: hero-zoom 1.6s var(--ease-out-soft) both; }
+.animate-hero-ripple { animation: hero-ripple 1.1s var(--ease-out-soft) both; }
+.animate-word-in { animation: word-in 0.8s var(--ease-out-soft) both; }
+.animate-fill-x { animation: fill-x linear both; }
+.animate-chevron-wave { animation: chevron-wave 1.4s ease-in-out infinite; }
+.animate-swipe-hint { animation: swipe-hint 1.8s ease-in-out infinite; }
+
+/*
+  Hero side arrows: three chevrons (each tagged --i) ride one 21px track, a third of a cycle apart, so a
+  steady stream flows forward. Static fallback (reduced motion) leaves them stacked 7px apart.
+*/
+@keyframes chevron-flow {
+  0% { transform: translateX(0); opacity: 0; }
+  25%, 70% { opacity: 1; }
+  100% { transform: translateX(21px); opacity: 0; }
+}
+.chevron-flow path {
+  transform: translateX(calc(var(--i) * 7px + 3.5px));
+  animation: chevron-flow 1.5s linear infinite;
+  animation-delay: calc(var(--i) * -0.5s);
+}
+.group\/arrow:hover .chevron-flow path { animation-duration: 0.9s; animation-delay: calc(var(--i) * -0.3s); }
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-hero-reveal, .animate-hero-zoom, .animate-hero-ripple, .animate-word-in,
+  .animate-chevron-wave, .animate-swipe-hint, .chevron-flow path { animation: none; }
+  .animate-hero-ripple { display: none; }
+}
+
+/*
   Centred card grid: every card in a row shares one width and height, and an incomplete
   last row is centred instead of left-hanging. Columns/gap are set per breakpoint with
   [--cols:n] / [--gap:x] classes (see components/common/CardGrid.tsx).

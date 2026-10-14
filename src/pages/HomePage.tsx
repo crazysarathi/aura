@@ -71,7 +71,7 @@ export default function HomePage() {
                 {[
                   { value: services.length, label: "Specialities" },
                   { value: treatmentCount, suffix: "+", label: "Treatments" },
-                  { value: doctors.length, label: "Consultant doctors" },
+                  { value: doctors.length, label: "Consultant" },
                 ].map((stat) => (
                   <div key={stat.label} className="flex flex-col-reverse justify-end gap-3 px-2 py-5 sm:gap-4 sm:px-4 sm:py-7">
                     <dt className="text-[11px] font-semibold uppercase tracking-wider text-ink-muted before:mx-auto before:mb-2.5 before:block before:h-0.5 before:w-8 before:rounded-full before:bg-copper-500 sm:text-xs">{stat.label}</dt>
