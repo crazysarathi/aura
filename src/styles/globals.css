@@ -127,6 +127,11 @@
   :target {
     scroll-margin-top: 8rem;
   }
+  /* Tailwind v4 leaves buttons on the default arrow cursor; show the hand on anything clickable. */
+  button:not(:disabled),
+  [role="button"]:not([aria-disabled="true"]) {
+    cursor: pointer;
+  }
   :focus-visible {
     outline: 2px solid var(--color-copper-600);
     outline-offset: 3px;
